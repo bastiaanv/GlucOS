@@ -145,6 +145,8 @@
 		3CBFB98A2AFE02E90020FC90 /* InulinOnBoardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFB9892AFE02E90020FC90 /* InulinOnBoardTests.swift */; };
 		3CBFB9912AFFAEC80020FC90 /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBFB9902AFFAEC80020FC90 /* DateTime.swift */; };
 		3CE9B8B02B28CB2200B12300 /* AlertStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE9B8AF2B28CB2100B12300 /* AlertStorage.swift */; };
+		3EC062142F0E88B10071DD1B /* MedtrumKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC062132F0E88B10071DD1B /* MedtrumKit.framework */; };
+		3EC062152F0E88B10071DD1B /* MedtrumKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3EC062132F0E88B10071DD1B /* MedtrumKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -184,6 +186,7 @@
 				3B4CFE232C223DD900BDB1CB /* ShareClientUI.framework in Embed Frameworks */,
 				3B709AB02AF49370004E5885 /* LoopKitUI.framework in Embed Frameworks */,
 				3C07C8902AF9625A008F604C /* OmniBLE.framework in Embed Frameworks */,
+				3EC062152F0E88B10071DD1B /* MedtrumKit.framework in Embed Frameworks */,
 				3C62EF662B218313001A4EF3 /* G7SensorKit.framework in Embed Frameworks */,
 				3B4CFE212C223DD200BDB1CB /* ShareClient.framework in Embed Frameworks */,
 				3B709AB32AF49377004E5885 /* MockKit.framework in Embed Frameworks */,
@@ -337,6 +340,7 @@
 		3CBFB9892AFE02E90020FC90 /* InulinOnBoardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InulinOnBoardTests.swift; sourceTree = "<group>"; };
 		3CBFB9902AFFAEC80020FC90 /* DateTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTime.swift; sourceTree = "<group>"; };
 		3CE9B8AF2B28CB2100B12300 /* AlertStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertStorage.swift; sourceTree = "<group>"; };
+		3EC062132F0E88B10071DD1B /* MedtrumKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MedtrumKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -365,6 +369,7 @@
 				3B4CFE222C223DD900BDB1CB /* ShareClientUI.framework in Frameworks */,
 				3C62EF682B218502001A4EF3 /* G7SensorKitUI.framework in Frameworks */,
 				3B4CFE1E2C223B9300BDB1CB /* CGMBLEKitUI.framework in Frameworks */,
+				3EC062142F0E88B10071DD1B /* MedtrumKit.framework in Frameworks */,
 				3C07C88F2AF9625A008F604C /* OmniBLE.framework in Frameworks */,
 				3B4CFE202C223DD200BDB1CB /* ShareClient.framework in Frameworks */,
 				3C62EF652B218313001A4EF3 /* G7SensorKit.framework in Frameworks */,
@@ -475,6 +480,7 @@
 		3B709AA92AF49366004E5885 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3EC062132F0E88B10071DD1B /* MedtrumKit.framework */,
 				3B4CFE162C2230DF00BDB1CB /* CGMBLEKitUI.framework */,
 				3B4CFE132C2230D800BDB1CB /* CGMBLEKit.framework */,
 				3C62EF672B218502001A4EF3 /* G7SensorKitUI.framework */,

@@ -18,3 +18,7 @@
 	path = ios/dexcom-share-client-swift
 	url = https://github.com/loopandlearn/dexcom-share-client-swift.git
 	branch = trio
+[submodule "ios/MedtrumKit"]
+	path = ios/MedtrumKit
+	url = https://github.com/loopandlearn/MedtrumKit
+	branch = dev

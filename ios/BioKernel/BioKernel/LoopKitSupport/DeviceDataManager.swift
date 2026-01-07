@@ -10,6 +10,7 @@ import LoopKitUI
 import MockKit
 import MockKitUI
 import OmniBLE
+import MedtrumKit
 
 import Combine
 import SwiftUI
@@ -107,16 +108,22 @@ public class DeviceDataManagerObservableObject: ObservableObject {
 
 let omniBLEManagerIdentifier: String = "Omnipod-Dash"
 let omniBLELocalizedTitle = "Omnipod DASH"
+let medtrumManagerIdentifier = "Medtrum"
+let medtrumLocalizedTitle = "Medtrum Nano"
 let staticPumpManagersByIdentifier: [String: PumpManagerUI.Type] = [
     MockPumpManager.pluginIdentifier : MockPumpManager.self,
-    omniBLEManagerIdentifier: OmniBLEPumpManager.self
+    omniBLEManagerIdentifier: OmniBLEPumpManager.self,
+    medtrumManagerIdentifier: MedtrumPumpManager.self,
 ]
 
 var availableStaticPumpManagers: [PumpManagerDescriptor] {
     return [PumpManagerDescriptor(identifier: MockPumpManager.pluginIdentifier,
                                   localizedTitle: MockPumpManager.localizedTitle),
             PumpManagerDescriptor(identifier: omniBLEManagerIdentifier,
-                                  localizedTitle: omniBLELocalizedTitle)]
+                                  localizedTitle: omniBLELocalizedTitle),
+            PumpManagerDescriptor(identifier: medtrumManagerIdentifier,
+                                  localizedTitle: medtrumLocalizedTitle)
+    ]
 }
 
 @MainActor
